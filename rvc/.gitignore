@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__
+/TEMP
+*.pyd
+hubert_base.pt
+f0D40k-latest.pth
+f0G40k-latest.pth
+/logs/ljs
