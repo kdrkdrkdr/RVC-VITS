@@ -12,14 +12,14 @@ This repository started with the idea of "Then why don't we clone a dataset and 
 
 ### 1. Pre-requisites
 0. Python >= 3.8
-0. Download this repository's release
+0. Download [RVC-VITS.zip](https://drive.google.com/file/d/1whQ3U0UcPXOTOYpibchH-MYcty-8D5Az/view?usp=sharing) and unzip RVC-VITS.zip
 0. Install python requirements. Please refer [requirements.txt](requirements.txt)
     1. You may need to install espeak first: `apt-get install espeak`
 0. Build requirements.txt and torch
 ```sh
 ./set_env.sh
 ```
-0. Put the dataset into the rvc_dataset directory according to the following file structure. In this experiment, I used 50 wavs file of ljspeech datasets (330seconds).
+0. Put the dataset into the rvc_dataset directory according to the following file structure. In this experiment, I used 50 wavs files of ljspeech datasets (330 seconds).
 ```sh
 rvc_dataset
 ├───ljs
