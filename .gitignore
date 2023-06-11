@@ -2,6 +2,7 @@ rvc
 rvc_dataset/*
 standard_dataset/*/wavs/*.wav
 vits_dataset/ljs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
