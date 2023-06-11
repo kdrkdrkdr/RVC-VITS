@@ -1,2 +1,4 @@
 logs/
+monotonic_align/core.c
+monotonic_align/monotonic_align
 __pycache__

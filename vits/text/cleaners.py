@@ -18,6 +18,10 @@ from phonemizer import phonemize
 import pyopenjtalk
 from text.japanese import japanese_to_romaji_with_accent, japanese_to_ipa, japanese_to_ipa2, japanese_to_ipa3
 from text.korean import latin_to_hangul, number_to_hangul, divide_hangul, g2pk2
+from text.symbols import symbols
+
+_cleaner_cleans = re.compile('['+'^'.join(symbols)+']')
+
 
 # Regular expression matching whitespace:
 _whitespace_re = re.compile(r'\s+')
@@ -105,6 +109,7 @@ def english_cleaners2(text):
   text = expand_abbreviations(text)
   phonemes = phonemize(text, language='en-us', backend='espeak', strip=True, preserve_punctuation=True, with_stress=True)
   phonemes = collapse_whitespace(phonemes)
+  phonemes = ''.join(_cleaner_cleans.findall(phonemes))
   return phonemes
 
 
@@ -115,7 +120,9 @@ def japanese_cleaners(text):
 
 
 def japanese_cleaners2(text):
-    return japanese_cleaners(text).replace('ts', 'ʦ').replace('...', '…')
+    text = japanese_cleaners(text).replace('ts', 'ʦ').replace('...', '…')
+    text = ''.join(_cleaner_cleans.findall(text))
+    return text
 
 
 def korean_cleaners(text):
@@ -132,36 +139,6 @@ def korean_cleaners2(text):
     text = g2pk2(text)
     text = divide_hangul(text)
     text = re.sub(r'([\u3131-\u3163])$', r'\1.', text)
+    text = ''.join(_cleaner_cleans.findall(text))
     return text
 
-
-def japanese_triphone_cleaners(text):
-  sentences = re.split(_japanese_marks, text)
-  marks = re.findall(_japanese_marks, text)
-  text = ''
-  for i, sentence in enumerate(sentences):
-    phones = pyopenjtalk.g2p(sentence, kana=False)
-    phones = phones.replace(' ','')
-    phones = phones.replace('A', 'a').replace('I', 'i').replace('U', 'u').replace('E', 'e').replace('O', 'o')
-    phones = phones.replace('ch','ʧ').replace('sh','ʃ').replace('cl','Q')
-    triphones = []
-    length = len(phones)
-    for j, phone in enumerate(phones):
-      if length == 1:
-        triphone = phone
-      else:
-        if j == 0:
-          triphone = f'{phone}+{phones[j+1]}'
-        elif j == length - 1:
-          triphone = f'{phones[j-1]}-{phone}'
-        else:
-          triphone = f'{phones[j-1]}-{phone}+{phones[j+1]}'
-      triphones.append(triphone)
-    subtext = ' '.join(triphones)
-    text += subtext
-    if i < len(marks):
-      text += unidecode(marks[i]).replace(' ', '')
-  if len(text) > 0  and re.match('[A-Za-z]',text[-1]):
-    text += '.'
-    
-  return text
