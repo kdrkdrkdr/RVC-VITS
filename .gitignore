@@ -1,5 +1,4 @@
-rvc
-rvc_dataset/*
+# rvc_dataset/ljs/*.wav
 standard_dataset/*/wavs/*.wav
 vits_dataset/ljs/
 
