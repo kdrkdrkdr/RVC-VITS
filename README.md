@@ -46,14 +46,12 @@ See vits/inference.ipynb
 ## Test Datasets
 | Language | Name | Link |
 | --- | --- | --- |
+| Korean | KSS | https://www.kaggle.com/datasets/bryanpark/korean-single-speaker-speech-dataset | - |
 | Japanese | JSUT | https://sites.google.com/site/shinnosuketakamichi/publication/jsut | - |
 | English | LJSPEECH | https://keithito.com/LJ-Speech-Dataset/ | - |
-| Korean | KSS | https://www.kaggle.com/datasets/bryanpark/korean-single-speaker-speech-dataset | - |
-
 
 
 ## References
 - https://github.com/jaywalnut310/vits.git
 - https://github.com/MasayaKawamura/MB-iSTFT-VITS.git
 - https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI.git
-- https://arxiv.org/pdf/2206.12132.pdf
