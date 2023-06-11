@@ -1,0 +1,10 @@
+../vits_dataset/jsut/wavs/BASIC5000_4991.wav|最近、気分が萎え気味だ。
+../vits_dataset/jsut/wavs/BASIC5000_4992.wav|虚無僧が托鉢している様子を眺める。
+../vits_dataset/jsut/wavs/BASIC5000_4993.wav|慰安旅行を、明日に控える。
+../vits_dataset/jsut/wavs/BASIC5000_4994.wav|使っていくうちに、艶が出る。
+../vits_dataset/jsut/wavs/BASIC5000_4995.wav|弾劾裁判がひらかれる。
+../vits_dataset/jsut/wavs/BASIC5000_4996.wav|扇型の、弧の長さを、計算で求める。
+../vits_dataset/jsut/wavs/BASIC5000_4997.wav|その王国は、最後の王に嗣子がおらず、滅亡した。
+../vits_dataset/jsut/wavs/BASIC5000_4998.wav|村人たちは、その話を聞いて、震え上がった。
+../vits_dataset/jsut/wavs/BASIC5000_4999.wav|ドナーから腎臓の提供を受ける。
+../vits_dataset/jsut/wavs/BASIC5000_5000.wav|あと３０分の猶予が与えられた。

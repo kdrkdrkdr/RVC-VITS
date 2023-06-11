@@ -1,0 +1,10 @@
+../vits_dataset/kss/wavs/4_5622.wav|유머는 스트레스를 해소하는 좋은 방법입니다.
+../vits_dataset/kss/wavs/4_5623.wav|부산은 국제 영화 축제로 유명해요.
+../vits_dataset/kss/wavs/4_5624.wav|올해는 유난히 봄이 늦어요.
+../vits_dataset/kss/wavs/4_5625.wav|유능한 인재를 뽑는 것보다 더 중요한 일은 없어요.
+../vits_dataset/kss/wavs/4_5626.wav|우리는 유럽 시장에 진출할 계획입니다.
+../vits_dataset/kss/wavs/4_5627.wav|깨진 유리 조각에 손가락을 벴어요.
+../vits_dataset/kss/wavs/4_5628.wav|아드님이 친구들과 야구를 하다 유리창을 깼어요.
+../vits_dataset/kss/wavs/4_5629.wav|일찍 신청하는 사람이 유리할 거야.
+../vits_dataset/kss/wavs/4_5630.wav|이 두 소설은 줄거리가 유사해요.
+../vits_dataset/kss/wavs/4_5631.wav|올해 6월은 유난히 쌀쌀해요.

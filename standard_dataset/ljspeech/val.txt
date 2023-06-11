@@ -1,0 +1,10 @@
+../vits_dataset/ljspeech/wavs/LJ033-0048.wav|Mrs. Paine was certain that she had not left the light on in the garage after dinner.
+../vits_dataset/ljspeech/wavs/LJ033-0049.wav|According to Mrs. Paine, Oswald had gone to bed by nine p.m.;
+../vits_dataset/ljspeech/wavs/LJ033-0050.wav|Marina Oswald testified that it was between nine and ten p.m.
+../vits_dataset/ljspeech/wavs/LJ033-0051.wav|Neither Marina Oswald nor Ruth Paine saw Oswald in the garage.
+../vits_dataset/ljspeech/wavs/LJ033-0052.wav|The period between eight and nine p.m., however, provided ample opportunity for Oswald to prepare the rifle for his departure the next morning.
+../vits_dataset/ljspeech/wavs/LJ033-0053.wav|Only if disassembled could the rifle fit into the paper bag found near the window from which the shots were fired.
+../vits_dataset/ljspeech/wavs/LJ033-0054.wav|A firearms expert with the FBI assembled the rifle in six minutes using a ten-cent coin as a tool,
+../vits_dataset/ljspeech/wavs/LJ033-0055.wav|and he could disassemble it more rapidly.
+../vits_dataset/ljspeech/wavs/LJ033-0056.wav|While the rifle may have already been disassembled when Oswald arrived home on Thursday, he had ample time that evening to disassemble the rifle
+../vits_dataset/ljspeech/wavs/LJ033-0057.wav|and insert it into the paper bag.
