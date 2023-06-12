@@ -40,6 +40,7 @@ def load_hubert():
     hubert_model.eval()
 
 
+
 def load_rvc_model(model_name):
     global cpt, tgt_sr, if_f0, version, net_g, vc, n_spk
     cpt = torch.load(f'weights/{model_name}.pth', map_location="cpu")
@@ -282,8 +283,9 @@ vits_config_format = '''{{
 
 
 def make_dataset(vc_model_name='ljs', language='ja'):
+    load_hubert()
     load_rvc_model(vc_model_name)
-
+    # return
     if language == 'ko':
         dataset_name = 'kss'
         cleaners = 'korean_cleaners2'
