@@ -35,7 +35,7 @@ rvc_dataset
 ./train_rvc.sh ljs 500
 # If you want to train korean tts, change ja to ko (ja -> japanese, ko -> korean, en -> english)
 ./make_dataset.sh ljs ja
-./train_vtis.sh ljs 
+./train_vits.sh ljs 
 ```
 
 
