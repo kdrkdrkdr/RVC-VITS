@@ -43,6 +43,10 @@ rvc_dataset
 See vits/inference.ipynb
 
 
+### 3.5 Inference Voice Sample
+See [ljs_ja_voice](samples/ljs_ja_87000.wav)
+
+
 ## Test Datasets
 | Language | Name | Link |
 | --- | --- | --- |

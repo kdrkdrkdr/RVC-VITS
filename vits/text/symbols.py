@@ -1,8 +1,8 @@
 
 
 _pad        = '_'
-_punctuation = ',.!?…~'
-_letters = 'ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅃㅆㅉㅏㅓㅗㅜㅡㅣㅐㅔ '
+_punctuation = ',.!?-~…'
+_letters = 'AEINOQUabdefghijkmnoprstuvwyzʃʧʦ↓↑ '
 
 
 symbols = [_pad] + list(_punctuation) + list(_letters)
